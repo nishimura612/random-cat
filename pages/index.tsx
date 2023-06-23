@@ -1,7 +1,7 @@
 import { GetServerSideProps, NextPage } from "next";
 import { useState } from "react";
 import styles from "./index.module.css"
- 
+
 type Props = {
   initialImageUrl: string;
 };
